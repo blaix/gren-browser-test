@@ -1,0 +1,14 @@
+{
+  "name": "gren-browser-test",
+  "version": "1.0.0",
+  "description": "Initialize a project to write automated browser tests with Gren",
+  "main": "index.js",
+  "bin": {
+    "gren-browser-test": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Blake",
+  "license": "BSD-3-Clause"
+}
