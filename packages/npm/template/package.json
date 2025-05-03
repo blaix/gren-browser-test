@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chromedriver": "^136.0.0",
+    "gren-lang": "^0.5.4"
+  }
+}

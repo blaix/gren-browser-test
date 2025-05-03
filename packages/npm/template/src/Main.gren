@@ -1,0 +1,19 @@
+module Main exposing (main)
+
+import Bytes exposing (Bytes)
+import Node
+import Stream
+import Task exposing (Task)
+
+
+main : Node.Program {} {}
+main =
+    Node.defineSimpleProgram <| \env ->
+        printLn env.stdout "Hey there."
+            |> Node.endSimpleProgram
+
+
+printLn : Stream.Writable Bytes -> String -> Task Never (Stream.Writable Bytes)
+printLn stream string =
+    Stream.writeLineAsBytes string stream
+        |> Task.onError (\_ -> Task.succeed stream)
