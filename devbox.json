@@ -2,7 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
   "packages": [
     "nodejs@22",
-    "claude-code@latest"
+    "claude-code@latest",
+    "github:gren-lang/nix/0.5.4"
   ],
   "shell": {
     "init_hook": [

@@ -1,0 +1,14 @@
+{
+    "type": "package",
+    "platform": "node",
+    "name": "blaix/gren-browser-test",
+    "summary": "Run automated browser tests with Gren",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [],
+    "gren-version": "0.5.3 <= v < 0.6.0",
+    "dependencies": {
+        "gren-lang/core": "6.0.1 <= v < 7.0.0",
+        "gren-lang/node": "5.0.3 <= v < 6.0.0"
+    }
+}
